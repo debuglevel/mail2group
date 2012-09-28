@@ -1,0 +1,12 @@
+This simple WCF3/WBB3 plugin provides a way to automatically add an user to a group if he's got an mail which is listed in a certain file.
+
+Installation:
+=============
+. change emailValidator.php and insert the accepted emails
+. upload emailValidator.php to some directory
+. change groupID in RegisterMail2GroupListener.class.php to your group's ID
+. change include path in RegisterMail2GroupListener.class.php relative to the WCF directory
+. run build.sh to build the plugin tarball
+. upload plugin to WCF3/WBB3
+
+
